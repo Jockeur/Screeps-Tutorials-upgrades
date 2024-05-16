@@ -151,7 +151,7 @@ Room.prototype.diagonalDistanceTransform = function (
                         opacity: 0.4,
                     })
 
-                    // Display distance from closestwall on the tile on the map
+                    // Display distance from closest wall on the tile on the map
                     room.text.text(distanceCM.get(x, y).toString(), x, y)
                 }
             }
