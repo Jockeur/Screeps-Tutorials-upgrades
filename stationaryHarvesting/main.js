@@ -20,6 +20,9 @@ const rolesList = {
     'harvester': 2
 }
 
+// Calling all prototypes to have them working
+require('prototype.creep');
+
 // This function runs every tick
 
 module.exports.loop = function () {
